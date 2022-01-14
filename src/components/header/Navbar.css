@@ -1,0 +1,18 @@
+.navbar{
+    background-color: blue;
+}
+
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 5px;
+    margin: 2px 30px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
