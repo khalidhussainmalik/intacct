@@ -1,30 +1,27 @@
 import React from 'react';
-// import SearchIcon from '@mui/icons-material/Search';
+
 
 
 
 
 
 import './Navbar.css'
-
-
-
-
 function Navbar() {
     return (
-        <div className='navbar-container'>
-            
-            <nav className='navbar'>
-                <a href='#'>Watch a short interactive demo and live Q&A -Sign up now -</a>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href='#'>Watch a short interactive demo and live Q&A -Sign up now -</a></li>
+                </ul>
                 <ul>
                     <li><a href='#'>Search</a></li>
                     <li><a href='#'>Contact</a></li>
                     <li><a href='#'>Sign In</a></li>
                 </ul>
             </nav>
-            <div className='navbar-lower'>
-                <div className='logo'>Logo</div>
-                <div>
+            <div className='main'>
+                <img src="/logo.PNG" alt='logo'/>
+                <div className='child-main'>
                     <select>
                         <option>Products</option>
                     </select>
